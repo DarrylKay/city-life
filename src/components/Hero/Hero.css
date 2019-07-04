@@ -1,0 +1,24 @@
+.defaultHero {
+  min-height: calc(100vh - 66px);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url("../../images/london.gif") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roomsHero {
+  min-height: calc(60vh - 66px);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+    url("../../images/room-2.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-error {
+  min-height: calc(100vh - 66px);
+  background-color: rgba(114, 113, 113, 0.753);   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
